@@ -1,6 +1,7 @@
 body {
     min-height: 75rem;
     position: relative;
+    background-image: url(/assets/img/background.png);
 }
 .navbar-brand {
     display:flex;
@@ -37,10 +38,10 @@ body {
 @media screen and (max-width: 767px) {
     .section {
         padding-top: 80px;
-        margin-bottom: 80px;
+        margin-bottom: -50px;
     }
     #navbar {
-        font-size: 1.em;
+        font-size: 1em;
     }
     #avatar img {
         width:40px;
