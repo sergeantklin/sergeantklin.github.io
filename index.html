@@ -1,80 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
-    <meta name="theme-color" content="#ffffff" />
-    <meta charset="utf-8" />
-    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-    <title>Sergei Kalinkovskii homepage</title>
-    <meta name="robots" content="index, follow" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#020617" />
+    <title>Сергей Калиновский — персональная страница</title>
+    <meta name="description" content="Персональная страница Сергея Калиновского — фронтенд-разработчик, опыт работы, примеры кода и хобби." />
   </head>
-
-  <body type="article" theme="white">
-    <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light">
-      <a class="navbar-brand" href="#home">
-        <div id="avatar">
-          <img class="avatar" alt="avatar" src="assets/img/ava3.png" />
-        </div>
-        <div class="flex-column align-items-center">
-          <div>Sergei Kalinkovskii</div>
-          <div
-            class="
-              font-weight-light
-              text-secondary text-uppercase
-              navbar-brand__subtitle
-            "
-          >
-            experienced front-end developer
-          </div>
-        </div>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./cv.html">CV</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Private</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div id="home" class="section">
-      <div w3-include-html="/sections/home.html"></div>
-    </div>
-    <div id="projects" class="section">
-      <div w3-include-html="/sections/projects.html"></div>
-    </div>
-    <script src="./assets/js/includeHTML.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="./assets/js/closeNavBar.js"></script>
-    <script src="./assets/js/scrollSpyAnimate.js"></script>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
