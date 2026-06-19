@@ -34,10 +34,10 @@ const experienceData: ExperienceEntry[] = [
         'Внедрение ИИ-инструментов в процессы разработки и анализа данных',
       ],
       en: [
-        'Developed and maintained the client and server-side of an HR CRM system',
+        'Developed and maintained both frontend and backend components of an HR CRM system',
         'Designed and coordinated API contracts between frontend, backend, and BFF',
-        'Built complex UIs: dynamic forms, analytics dashboards, data visualizations',
-        'Led frontend engineering: code reviews, architectural decisions, engineering practices development',
+        'Built complex UIs, including dynamic forms, analytics dashboards, and data visualizations used by 5,000+ users',
+        'Led frontend engineering efforts, including code reviews, architectural decision-making, and engineering practice development',
         'Integrated AI tools into development and data analysis workflows',
       ],
     },
@@ -51,15 +51,15 @@ const experienceData: ExperienceEntry[] = [
       en: [
         'Migrated 80%+ of frontend code from JavaScript to TypeScript',
         'Built a user analytics system with multidimensional data visualization, trend analysis, and recommendation generation',
-        'Grew into a frontend lead role and coordinated a team of 4 engineers',
-        'Introduced an MCP agent and custom AI skills for development automation, reducing task delivery time by 50%',
+        'Promoted to Frontend Lead and coordinated a team of 4 engineers',
+        'Introduced an MCP agent and custom AI-powered development tools, reducing task delivery time by 50%',
       ],
     },
   },
   {
     company: { ru: 'Дойче-телеком Айти RUS', en: 'Deutsche Telekom IT RUS' },
     logoUrl: '/img/telekom.png',
-    title: { ru: 'Ведущий разработчик', en: 'Lead Developer' },
+    title: { ru: 'Ведущий фронтенд-разработчик', en: 'Senior Frontend Developer' },
     period: {
       ru: 'Декабрь 2020 — Декабрь 2021 (1 год и 1 месяц)',
       en: 'December 2020 — December 2021 (1 year 1 month)',
@@ -78,7 +78,7 @@ const experienceData: ExperienceEntry[] = [
         'Maintained the frontend of an internal CRM web application',
         'Built a design system and UI kit for the CRM',
         'Developed low-level components meeting accessibility and localization requirements',
-        'Wrote integration guides for using components in microservice applications',
+        'Authored integration guides for adopting components across microservice applications',
         'Maintained and created technical and user documentation',
       ],
     },
@@ -90,7 +90,7 @@ const experienceData: ExperienceEntry[] = [
   {
     company: { ru: 'Altenar', en: 'Altenar' },
     logoUrl: '/img/altenar.png',
-    title: { ru: 'Ведущий программист', en: 'Lead Developer' },
+    title: { ru: 'Ведущий фронтенд-разработчик', en: 'Lead Frontend Developer' },
     period: {
       ru: 'Ноябрь 2015 — Декабрь 2020 (5 лет и 2 месяца)',
       en: 'November 2015 — December 2020 (5 years 2 months)',
@@ -105,8 +105,8 @@ const experienceData: ExperienceEntry[] = [
         'Онбординг, коучинг сотрудников',
       ],
       en: [
-        'Owned the frontend of the Altenar gaming platform',
-        'Worked directly with clients',
+        'Led frontend development for the Altenar gaming platform',
+        'Collaborated directly with clients to gather requirements and deliver solutions',
         'Conducted technical interviews for candidates',
         'Onboarded and coached new team members',
       ],
@@ -118,7 +118,7 @@ const experienceData: ExperienceEntry[] = [
       ],
       en: [
         'Designed the frontend architecture of the application',
-        'Successfully migrated the legacy codebase to Vue step by step',
+        'Led the incremental migration of a legacy codebase to Vue',
       ],
     },
   },
@@ -142,15 +142,14 @@ const experienceData: ExperienceEntry[] = [
       ],
       en: [
         'Built the frontend of a GIS dispatch system for gas supply infrastructure management',
-        'Optimized network requests',
-        'Optimized performance for low-end client machines',
+        'Optimized network requests and performance for low-end client machines, reduced page load time by 40%',
         'Built a UI kit from scratch',
         'Integrated mapping and cartography',
       ],
     },
     achievements: {
       ru: ['За внедрение ГИС-системы для диспетчера отмечен дипломом форума EXPO в Санкт-Петербурге'],
-      en: ['Received a diploma at the EXPO forum in St. Petersburg for implementing the GIS dispatch system'],
+      en: ['Received an industry award at an expo in St. Petersburg for the implementation of the GIS dispatch system'],
     },
   },
   {
