@@ -32,7 +32,7 @@ function About() {
             style={{ background: 'linear-gradient(135deg, #38bdf8, #a855f7)' }}
           >
             <img
-              src="https://img.hhcdn.ru/photo/849015958.jpeg?t=1781709921&h=f7uDJ-xZWl5oisjTFYl3kw"
+              src="/img/photo.jpg"
               alt="Sergei Kalinkovskii"
               className="h-full w-full rounded-full object-cover"
             />

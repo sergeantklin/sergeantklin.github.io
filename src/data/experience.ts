@@ -17,7 +17,7 @@ export interface ExperienceEntry {
 const experienceData: ExperienceEntry[] = [
   {
     company: { ru: 'Potok', en: 'Potok' },
-    logoUrl: 'https://www.google.com/s2/favicons?sz=64&domain_url=potok.io',
+    logoUrl: '/img/potok.png',
     title: { ru: 'Ведущий фронтенд-разработчик', en: 'Lead Frontend Developer' },
     period: {
       ru: 'Январь 2022 — сейчас (4 года и 6 месяцев)',
@@ -58,7 +58,7 @@ const experienceData: ExperienceEntry[] = [
   },
   {
     company: { ru: 'Дойче-телеком Айти RUS', en: 'Deutsche Telekom IT RUS' },
-    logoUrl: 'https://www.google.com/s2/favicons?sz=64&domain_url=telekom.de',
+    logoUrl: '/img/telekom.png',
     title: { ru: 'Ведущий разработчик', en: 'Lead Developer' },
     period: {
       ru: 'Декабрь 2020 — Декабрь 2021 (1 год и 1 месяц)',
@@ -89,7 +89,7 @@ const experienceData: ExperienceEntry[] = [
   },
   {
     company: { ru: 'Altenar', en: 'Altenar' },
-    logoUrl: 'https://www.google.com/s2/favicons?sz=64&domain_url=altenar.com',
+    logoUrl: '/img/altenar.png',
     title: { ru: 'Ведущий программист', en: 'Lead Developer' },
     period: {
       ru: 'Ноябрь 2015 — Декабрь 2020 (5 лет и 2 месяца)',
@@ -155,7 +155,7 @@ const experienceData: ExperienceEntry[] = [
   },
   {
     company: { ru: 'Демидовский фанерный комбинат', en: 'Demidovsky Plywood Mill' },
-    logoUrl: 'https://www.demidovo.ru/i/logo-demidovo.gif',
+    logoUrl: '/img/demidovo.gif',
     title: { ru: 'Начальник IT-отдела', en: 'Head of IT Department' },
     period: {
       ru: 'Февраль 2006 — Апрель 2007 (1 год и 3 месяца)',
