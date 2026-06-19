@@ -11,9 +11,9 @@ const bio = {
     'Большую часть свободного времени посвящаю собственным проектам и изучению новых технологий. Мне нравится разбираться в том, как устроены сложные системы, и находить простые решения для сложных задач.',
   ],
   en: [
-    "I'm a developer who loves turning ideas into working products.",
-    "I'm interested in modern frontend, realtime technologies, and everything connected to creating interactive user experiences.",
-    "I spend most of my free time on personal projects and studying new technologies. I enjoy understanding how complex systems work and finding simple solutions to complex problems.",
+    "Frontend engineer with 18+ years of experience building complex web applications and developer platforms.",
+    "My primary interests are TypeScript, React, Vue, application architecture, realtime systems, and AI-assisted development. I enjoy solving technically challenging problems, designing maintainable solutions, and improving developer experience.",
+    "In my spare time, I work on personal projects, study new technologies, and explore how modern tools can simplify complex systems.",
   ],
 };
 
